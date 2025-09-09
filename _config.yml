@@ -22,3 +22,10 @@ author:
 
 # Optional social
 github_username: binnu-dev
+
+# Apply Hyde's accent theme site-wide via Poole classes
+defaults:
+  - scope:
+      path: ""
+    values:
+      classes: ["theme-base-08"]
