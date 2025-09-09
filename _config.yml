@@ -1,0 +1,24 @@
+title: binnu-dev
+description: "Thoughts, notes, and projects."
+url: https://binnu-dev.github.io
+baseurl: ""
+permalink: /:categories/:year/:month/:day/:title/
+timezone: Etc/UTC
+
+# Use Hyde as a remote theme (GitHub Pages supports this)
+remote_theme: poole/hyde
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Sidebar/nav will list pages with `layout: page`
+
+author:
+  name: binnu-dev
+  email: you@example.com
+
+# Optional social
+github_username: binnu-dev
