@@ -22,6 +22,9 @@ author:
 
 # Optional social
 github_username: binnu-dev
+twitter:
+  username: ffreedomkr
+  card: summary_large_image
 
 # Apply Hyde's accent theme site-wide via Poole classes
 defaults:
