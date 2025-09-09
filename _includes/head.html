@@ -12,24 +12,4 @@
 
   {% feed_meta %}
   {% seo %}
-
-  {%- comment -%}
-  Ensure large Twitter card by picking an image.
-  1) Prefer page.image front matter if set
-  2) Else try first Markdown image under /assets/img/
-  {%- endcomment -%}
-  {%- assign first_image = page.image | default: nil -%}
-  {%- if first_image == nil or first_image == '' -%}
-    {%- assign marker = '/assets/img/' -%}
-    {%- if page.content contains marker -%}
-      {%- assign after = page.content | split: marker | slice: 1, 1 | first -%}
-      {%- assign tail = after | split: ')' | first -%}
-      {%- assign first_image = marker | append: tail -%}
-    {%- endif -%}
-  {%- endif -%}
-  {%- if first_image -%}
-    <meta property="og:image" content="{{ first_image | absolute_url }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ first_image | absolute_url }}">
-  {%- endif -%}
 </head>
