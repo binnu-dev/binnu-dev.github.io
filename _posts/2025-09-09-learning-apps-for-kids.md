@@ -52,8 +52,11 @@ title: 아이들을 위한 학습용 어플 모음
 
 
 
-여기까지는 내가 직접 쓰는 앱들.
-이 아래에는 한번 써볼까? 하면서 알아본 것들. 
+## 여기까지는 내가 직접 쓰는 앱들.
+
+## 이 아래에는 한번 써볼까? 하면서 알아본 것들.
+
+(가능하면 쓰면서 자연스럽게 영어를 사용했으면 하는 바람으로 영어로 사용할 수 있는 앱만 찾아봄)
 
 알파스쿨에서 사용하는 앱 목록이라는 이 글도 참조. ([Austin Scholar #177: The Alpha App Stack](https://austinscholar.substack.com/p/austin-scholar-177-the-alpha-app))
 
@@ -63,9 +66,11 @@ title: 아이들을 위한 학습용 어플 모음
 수준과 관심사에 맞는 스토리를 생성해서 읽고 퀴즈까지 풀어볼 수 있는 플랫폼. 
 ![Pasted image 20250910001202.png](/assets/img/Pasted%20image%2020250910001202.png)
 
+
 [Tolan: Alien Best Friend on the App Store](https://apps.apple.com/us/app/tolan-alien-best-friend/id6477549878)
 이건 특별히 학습용앱도 아니고 어린이용도 아니긴 한데, 어린이용으로 개발된다면 말하기 연습용으로 너무 좋을 것 같아서 링크.
 ![Pasted image 20250910001629.png](/assets/img/Pasted%20image%2020250910001629.png)
+
 
 [Prodigy Math: Kids Game - Apps on Google Play](https://play.google.com/store/apps/details?id=com.prodigygame.prodigy&hl=en)
 게임하면서 수학하는 어플
