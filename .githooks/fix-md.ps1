@@ -23,7 +23,7 @@ foreach ($f in $files) {
       return "[$inner]($url)"
   })
 
-  # Save back as UTF-8
-  Set-Content -Path $f -Value $text -NoNewline -Encoding utf8
+  # Save back as UTF-8 without BOM (important for Jekyll front matter)
+  $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+  [System.IO.File]::WriteAllText((Resolve-Path $f), $text, $utf8NoBom)
 }
-
