@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Run markdown fixes (wikilink images, escape pipes in link text)
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .githooks/fix-md.ps1
+
+# Re-stage any changes
+git add -A
+
+exit 0
+
