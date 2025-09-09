@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+  <body class="{{ page.classes | join:' ' }}">
+    <div class="sidebar">
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+          <p class="lead">{{ site.description }}</p>
+        </div>
+        <nav class="sidebar-nav">
+          <a class="sidebar-nav-item" href="{{ '/' | relative_url }}">Home</a>
+          <a class="sidebar-nav-item" href="{{ '/about/' | relative_url }}">About</a>
+          <a class="sidebar-nav-item" href="{{ '/project/' | relative_url }}">Project</a>
+          <a class="sidebar-nav-item" href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a class="sidebar-nav-item" href="https://twitter.com/ffreedomkr" target="_blank" rel="noopener">Twitter @ffreedomkr</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="content container">
+      {{ content }}
+    </div>
+  </body>
+  </html>
+
