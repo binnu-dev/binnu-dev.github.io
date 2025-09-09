@@ -8,7 +8,7 @@ AI의 시대의 흐름을 타고 가면서 가장 걱정이 되는 것은 우리
 
 그러다가 우연히 미국의 사립학교인 알파 스쿨을 알게 되었다. 기존의 교육 체계에서 발전시키는 것이 아니라 완전히 혁신적인 교육 프로그램을 내세우는 이 학교의 특징은 이런 것들이다. 
 
-[AI Powered Private School | Alpha School](https://alpha.school/)
+[AI Powered Private School &#124; Alpha School](https://alpha.school/)
 
 * 아이들이 학교를 사랑하게 만드는 것을 목표로 함. 
 * 하루에 학습을 하는 시간은 2시간. AI앱을 사용하여 개인화된 학습을 한다.
