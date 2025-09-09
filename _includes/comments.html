@@ -1,0 +1,18 @@
+{% assign provider = site.comments.provider | default: '' %}
+<div id="comments" class="post-comments">
+  <h2>Comments</h2>
+  {% if provider == 'utterances' and site.comments.utterances.repo %}
+    <script src="https://utteranc.es/client.js"
+            repo="{{ site.comments.utterances.repo }}"
+            issue-term="{{ site.comments.utterances.issue_term | default: 'pathname' }}"
+            label="{{ site.comments.utterances.label | default: 'comments' }}"
+            theme="{{ site.comments.utterances.theme | default: 'github-light' }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript>Enable JavaScript to view comments.</noscript>
+  {% else %}
+    <p>Comments are not configured.</p>
+  {% endif %}
+</div>
+
