@@ -30,11 +30,6 @@ defaults:
     values:
       classes: ["theme-base-08"]
 
-# Comments configuration (Utterances)
-comments:
-  provider: utterances
-  utterances:
-    repo: binnu-dev/binnu-dev.github.io
-    issue_term: pathname
-    label: comments
-    theme: github-light
+# Comments: Disqus only
+disqus:
+  shortname: 0bin
